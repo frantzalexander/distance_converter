@@ -18,3 +18,18 @@ This is a tool to convert Miles to Kilometers from a minimalist graphic user int
 
 
 ## Process
+```mermaid
+flowchart TD
+start(((START)))
+window[Create GUI Window]
+field[Text field for User Input]
+function[Conversion function utilizing User Input]
+conversion[Conversion Output Label]
+button[Calculate Button Activates Conversion Function]
+finish(((END)))
+start --> window
+window --> field
+field --> function
+function --> conversion
+conversion --> button
+button --> finish
